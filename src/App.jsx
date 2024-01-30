@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber'
 
 import './App.css'
 
-import ShaderText from './ShaderText.jsx'
+import Cube from './Cube.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +14,7 @@ function App() {
       position: [4.5, 2.5,5.5],
       fov: 40 }}  
     >
-      <ShaderText />
+      <Cube />
     </Canvas>
   )
 }
